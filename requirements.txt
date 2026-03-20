@@ -1,0 +1,33 @@
+# ── Backend Framework ────────────────────────────────────
+fastapi==0.109.2
+uvicorn[standard]==0.27.1
+pydantic==2.6.1
+
+# ── Background Processing ────────────────────────────────
+celery==5.3.6
+redis==5.0.1
+
+# ── Web Crawling ─────────────────────────────────────────
+selenium==4.17.2
+webdriver-manager==4.0.1
+beautifulsoup4==4.12.3
+
+# ── NLP & Embeddings ─────────────────────────────────────
+spacy==3.7.4
+sentence-transformers==2.3.1
+
+# ── ML / Classification ──────────────────────────────────
+transformers==4.37.2
+torch>=2.0.0
+scikit-learn==1.4.0
+
+# ── Data Processing ──────────────────────────────────────
+pandas==2.2.0
+numpy>=1.24.0
+
+# ── Graph & Visualization ────────────────────────────────
+networkx==3.2.1
+pyvis==0.3.2
+
+# ── Computer Vision ──────────────────────────────────────
+opencv-python-headless==4.9.0.80
